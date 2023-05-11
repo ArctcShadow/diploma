@@ -1,0 +1,3 @@
+div.CalendarView-item-chip.expired {
+    background-color: var(--sticky-red-color);
+}

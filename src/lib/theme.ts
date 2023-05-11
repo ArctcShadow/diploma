@@ -1,0 +1,26 @@
+import { createMuiTheme } from '@material-ui/core/styles';
+import { blue, pink }     from '@material-ui/core/colors';
+
+
+//світла-темна тема залежно від теми браузера (не налаштовані кольори, починити)
+export const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+export const theme = createMuiTheme({
+    palette: isDark ? {
+        type: 'dark',
+        primary: {
+            main: blue[500],
+        },
+        secondary: {
+            main: pink[500],
+        },
+    } : {
+        type: 'light',
+        primary: {
+            main: blue[500],
+        },
+        secondary: {
+            main: pink[500],
+        },
+    },
+});
