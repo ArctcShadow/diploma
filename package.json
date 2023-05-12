@@ -57,7 +57,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -77,11 +78,12 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/shellyln/kanban-board-app.git"
+    "url": ""
   },
   "author": "shellyln",
+  "homepage": "https://ArctcShadow.github.io/",
   "bugs": {
-    "url": "https://github.com/shellyln/kanban-board-app/issues"
+    "url": ""
   },
   "license": "ISC"
 }
