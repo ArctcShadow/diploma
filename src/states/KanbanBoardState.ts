@@ -652,7 +652,7 @@ export async function getKanbanBoardReducer() {
                         );
                         let activeBoard = change._id === state.activeBoard._id ? change : state.activeBoard;
 
-                        // TODO: stikey records
+                   
                         const records: KanbanRecord[] = (await db.find({selector: {
                             type: 'kanban',
                             boardId: change._id,

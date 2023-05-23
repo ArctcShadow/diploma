@@ -44,7 +44,7 @@ div.CalendarView-item-chip.status-done {
 export const initialData = {
     "boards": [{
         "type": "kanbanBoard",
-        "name": "Welcome Board",
+        "name": "Вітальна дошка",
         "taskStatuses": [{
             "value": "Backlog",
             "caption": "Backlog",
@@ -58,9 +58,9 @@ export const initialData = {
             "caption": "In Progress",
             "className": "status-inprogress"
         }, {
-            "value": "Staging",
-            "caption": "Staging",
-            "className": "status-staging"
+            "value": "Review",
+            "caption": "Review",
+            "className": "status-review"
         }, {
             "value": "Done",
             "caption": "Done",
@@ -96,12 +96,12 @@ export const initialData = {
         "type": "kanban",
         "dueDate": "",
         "description":
-            "# Welcome to the Kanban Board App!\n" +
-            "* This is a kanban (or sticky).\n" +
-            "* Write one task for one kanban.\n" +
-            "* To add a kanban to the board, click the “+” icon in the upper left corner of the board.\n" +
-            "* Tap or click on kanban to edit.\n" +
-            "* Drag and drop the kanban to change the status.",
+        "# Ласкаво прошу до додатку!\n" +
+        "* Це картка з завданням.\n" +
+        "* Пишіть одне завдання для однієї картки.\n" +
+        "* Щоб додати картку на дошку, натисніть на іконку "+" у верхньому лівому кутку дошки.\n" +
+        "* Натисніть або клацніть по завданню для редагування.\n" +
+        "* Перетягніть завдання, щоб змінити його статус.",
         "barcode": "",
         "memo": "",
         "flags": [],
@@ -113,10 +113,10 @@ export const initialData = {
         "type": "kanban",
         "dueDate": "",
         "description":
-            "* Board and Kanban data are stored in the browser's local “indexed DB”.\n" +
-            "* You can use a remote [“CouchDB”](https://couchdb.apache.org) server to synchronize multiple device boards.\n" +
-            "* You can get a fully managed CouchDB server with [“IBM Cloudant®” from IBM Cloud](https://www.ibm.com/cloud/cloudant).\n" +
-            "* Create an [IBM Cloud Lite account](https://www.ibm.com/cloud/free/) and get a free tier without a credit card.",
+            "* Дошка та завдання зберігаються у локальній індексованій браузерній базі даних.\n" +
+            "* Ви можете використовувати віддалений сервер [`CouchDB`](https://couchdb.apache.org) для синхронізації дошок декількох пристроїв\n" +
+            "* Або як альтернативу безкоштовну версію керованого серверу від IBM: [“IBM Cloudant®” from IBM Cloud](https://www.ibm.com/cloud/cloudant).\n",
+            
         "barcode": "",
         "memo": "",
         "flags": [],
@@ -128,12 +128,12 @@ export const initialData = {
         "type": "kanban",
         "dueDate": "",
         "description":
-            "# Go [Settings](#/config/) to setup\n\n" +
+            "# Для встановлення -> [Налаштування](#/config/)\n\n" +
             "----\n\n" +
-            "* `remote.endpointUrl`: Cloudant `External Endpoint` URL w/ DB name\n" +
-            "  * e.g. `https://???-bluemix.cloudant.com/mydb`\n" +
+            "* `remote.endpointUrl`: посиланян на Cloudant `External Endpoint` разом з назвою БД\n" +
+            "  * приклад: `https://???-bluemix.cloudant.com/mydb`\n" +
             "* `remote.user`: Cloudant `API Key`\n" +
-            "* `remote.password`: Cloudant `API Key`'s password",
+            "* `remote.password`: пароль Cloudant `API Key`",
         "barcode": "",
         "memo": "",
         "flags": [],
@@ -145,9 +145,9 @@ export const initialData = {
         "type": "kanban",
         "dueDate": "",
         "description":
-            "* You can customize the appearance and behavior of the board and kanban in the configuration editor view.\n\n\n" +
+            "* Ви можете налаштувати вигляд і поведінку дошки та завдань у вікні редактора конфігурації.\n\n\n" + "\n\n\n" + "\n\n\n" + "\n\n\n"+
             "----\n\n" +
-            "# Go [Editor](#/edit/) to setup",
+            "# Перейдіть в [Редактор](#/edit/) для налаштування",
         "barcode": "",
         "memo": "",
         "flags": [],
@@ -159,13 +159,12 @@ export const initialData = {
         "type": "kanban",
         "dueDate": "2030-01-01",
         "description":
-            "### Hello, kanban board !\n\n" +
+            "### Привіт, користувачу! !\n\n" +
             "* ~aaa~\n" +
             "  * **bbb**\n" +
             "* *ccc*\n\n" +
-            "----\n\n" +
-            "https://shellyln.github.io/\n\n" +
-            "![logo](https://shellyln.github.io/assets/image/shellyln.png)",
+            "----\n\n",
+           
         "barcode": "12345",
         "memo": "memo",
         "flags": ["Marked"],
@@ -177,8 +176,7 @@ export const initialData = {
         "type": "kanban",
         "dueDate": "",
         "description":
-            "# What is a Kanban Board?\n" +
-            "https://www.atlassian.com/agile/kanban/boards",
+            "",
         "barcode": "",
         "memo": "",
         "flags": [],
@@ -190,8 +188,7 @@ export const initialData = {
         "type": "kanban",
         "dueDate": "",
         "description":
-            "# What are WIP limits?\n" +
-            "https://www.atlassian.com/agile/kanban/wip-limits",
+            "",
         "barcode": "",
         "memo": "",
         "flags": [],
@@ -203,7 +200,7 @@ export const initialData = {
         "type": "kanban",
         "dueDate": "",
         "description":
-            "# Get Started With Cloudant in IBM Cloud\n" +
+            "# Початок роботи з Cloudant в IBM Cloud\n" +
             "https://developer.ibm.com/clouddataservices/docs/cloudant/get-started/",
         "barcode": "",
         "memo": "",
@@ -216,7 +213,7 @@ export const initialData = {
         "type": "kanban",
         "dueDate": "",
         "description":
-            "# Sign up for IBM Cloud\n" +
+            "# Зареєструйтеся в IBM Cloud\n" +
             "https://cloud.ibm.com/registration",
         "barcode": "",
         "memo": "",
@@ -229,7 +226,7 @@ export const initialData = {
         "type": "kanban",
         "dueDate": "",
         "description":
-            "Release Kanban board app v0.0.1",
+            "",
         "barcode": "",
         "memo": "",
         "flags": [],
@@ -240,7 +237,7 @@ export const initialData = {
     }, {
         "type": "kanban",
         "dueDate": "2030-01-01",
-        "description": "This record is archived.",
+        "description": "Цей запис архівовано.",
         "barcode": "",
         "memo": "",
         "flags": ["Archived"],
