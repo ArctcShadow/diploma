@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/diploma/static/css/main.f76061ee.chunk.css",
+    "main.css": "/diploma/static/css/main.efd42e70.chunk.css",
     "main.js": "/diploma/static/js/main.c9ab6e3c.chunk.js",
     "main.js.map": "/diploma/static/js/main.c9ab6e3c.chunk.js.map",
     "runtime-main.js": "/diploma/static/js/runtime-main.26e46f07.js",
@@ -9,9 +9,9 @@
     "static/js/2.4a2bf2a1.chunk.js": "/diploma/static/js/2.4a2bf2a1.chunk.js",
     "static/js/2.4a2bf2a1.chunk.js.map": "/diploma/static/js/2.4a2bf2a1.chunk.js.map",
     "index.html": "/diploma/index.html",
-    "precache-manifest.b6f98c81eac36982a5abc3950cfb860d.js": "/diploma/precache-manifest.b6f98c81eac36982a5abc3950cfb860d.js",
+    "precache-manifest.0d50ab5cd0ee2b72ec66381b06144d29.js": "/diploma/precache-manifest.0d50ab5cd0ee2b72ec66381b06144d29.js",
     "service-worker.js": "/diploma/service-worker.js",
     "static/css/2.5abeca67.chunk.css.map": "/diploma/static/css/2.5abeca67.chunk.css.map",
-    "static/css/main.f76061ee.chunk.css.map": "/diploma/static/css/main.f76061ee.chunk.css.map"
+    "static/css/main.efd42e70.chunk.css.map": "/diploma/static/css/main.efd42e70.chunk.css.map"
   }
 }
